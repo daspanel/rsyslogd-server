@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv sh
+
+if [ ! -d "/opt/daspanel/log" ]; then
+	mkdir -p /opt/daspanel/log
+fi
+
+if [ -d "/var/log" ]; then
+    rm -Rf /var/log
+fi
+ln -sf /opt/daspanel/log /var/log
+
