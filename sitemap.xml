@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/help/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/help/compose/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/help/advanced/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/help/development/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/howto/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/issues/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/contributing/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/authors/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://daspanel.github.io/rsyslogd-server/changelog/</loc>
+     <lastmod>2016-09-01</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+</urlset>
