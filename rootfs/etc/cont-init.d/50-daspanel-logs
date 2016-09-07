@@ -1,11 +1,25 @@
 #!/usr/bin/with-contenv sh
 
-if [ ! -d "/opt/daspanel/log" ]; then
-	mkdir -p /opt/daspanel/log
+# Master admin email must be informed
+if [ -z "$DASPANEL_MASTER_EMAIL" ]; then
+    echo "***"
+    echo "ERROR: You must set the env variable DASPANEL_MASTER_EMAIL to a valid email"
+    echo "***"
+    exit 1
 fi
 
-if [ -d "/var/log" ]; then
-    rm -Rf /var/log
+# unless this has already been defined
+if [ -z "$DASPANEL_MASTER_PASSWORD" ]; then
+    echo "***"
+    echo "ERROR: You must set the env variable DASPANEL_MASTER_PASSWOR"
+    echo "***"
+    exit 1
 fi
-ln -sf /opt/daspanel/log /var/log
 
+# unless this has already been defined
+if [ -z "$DASPANEL_GUUID" ]; then
+    echo "***"
+    echo "ERROR: You must set the env variable DASPANEL_GUUID"
+    echo "***"
+    exit 1
+fi
