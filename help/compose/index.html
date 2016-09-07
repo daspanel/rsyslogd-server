@@ -353,6 +353,10 @@ to familiarize yourself with its features.</p>
 is highly recommended that you know his documentation: 
 <a href="https://docs.docker.com/compose/">https://docs.docker.com/compose/</a></em></p>
 <h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-docker-volume-to-store-permanent-data">Create a Docker volume to store permanent data</h3>
+<pre><code class="sh">docker volume create --name=daspanel-data
+</code></pre>
+
 <h3 id="start-container">Start container:</h3>
 <pre><code class="sh">docker-compose up
 </code></pre>
@@ -376,15 +380,15 @@ is highly recommended that you know his documentation:
 <h2 id="another-usages">Another usages</h2>
 <h3 id="shell-access-to-the-container">Shell access to the container</h3>
 <p>In order to run the container and get access to a shell on it you can do:</p>
-<pre><code class="sh">docker-compose run rsyslogd-server /bin/sh
+<pre><code class="sh">docker-compose run daspanel-rsyslogd-server /bin/sh
 </code></pre>
 
-<p>where <code>rsyslogd-server</code> must be one of the 
+<p>where <code>daspanel-rsyslogd-server</code> must be one of the 
 definied services in your <code>docker-compose.yml</code>. See below relevant content of 
 the compose file:</p>
 <pre><code class="yaml">version: '2'
 services:
-    rsyslogd-server:
+    daspanel-rsyslogd-server:
         build:
             context: .
             dockerfile: Dockerfile
@@ -394,6 +398,7 @@ services:
 <h2 id="customization">Customization</h2>
 <p>The sample <code>docker-compose.yml</code> file in this project it's only an start point for 
 your convenience. Fell free to change it for your specific needs.</p>
+<p>The sample <code>docker-compose.yml</code> set env variables using the <code>daspanel.env</code> file.</p>
           <aside class="copyright" role="note">
             
               Copyright (c) 2016 Abner G Jacobsen &ndash;
